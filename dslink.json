@@ -1,0 +1,32 @@
+{
+  "name": "dslink-dart-system",
+  "version": "1.0.0",
+  "description": "System DSLink",
+  "main": "bin/run.dart",
+  "engines": {
+    "dart": ">=1.9.0"
+  },
+  "getDependencies": [
+    "pub get"
+  ],
+  "configs": {
+    "broker": {
+      "type": "url"
+    },
+    "name": {
+      "type": "string",
+      "default": "System"
+    },
+    "token": {
+      "type": "string"
+    },
+    "linux_use_free_command": {
+      "type": "bool",
+      "default": true
+    },
+    "offset_memory_disk_cache": {
+      "type": "bool",
+      "default": true
+    }
+  }
+}
