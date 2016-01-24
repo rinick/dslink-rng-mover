@@ -15,7 +15,7 @@
     },
     "name": {
       "type": "string",
-      "default": "System"
+      "default": "rng-mover"
     },
     "token": {
       "type": "string"
