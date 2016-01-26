@@ -23,8 +23,8 @@ main(List<String> args) async {
 
   var rootnode = link.getNode('/');
   if (rootnode.children.isEmpty) {
-    for (int i = 0; i < 20; ++i) {
-      int x = i&7;
+    for (int i = 0; i < 10; ++i) {
+      int x = i;
       var node = link.provider.getOrCreateNode('/node$i', true);
       //cust_id, site_id, collector_id, mover_id
       node.attributes['@cust_id'] = x >> 3;
